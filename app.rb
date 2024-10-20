@@ -38,7 +38,7 @@ end
 get("/scissors") do
 
   plays = ["rock", "paper", "scissors"]
-  @comp_move = plays.sample
+  @comp_move_3 = plays.sample
 
   if @comp_move_3 == "rock"
       @outcome_3 = "lost"
